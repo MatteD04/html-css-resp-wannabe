@@ -133,17 +133,24 @@ img {
     }
 }
 @media screen and (max-width:480px){
-    .container{
-        width: 100%;
-    }
     .row{
         flex-wrap: wrap;
-        flex-direction: column;
     }
-    .card{
-        align-items: center;
+    .lessons .col{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .steps .col{
+        width: 100%;
+        margin-bottom: 50px;
     }
     .why-us{
         background-color: black;
+    }
+    .why-us .col-left{
+        width: 100%;
+    }
+    .why-us .col-right{
+        width: 100%;
     }
 }
